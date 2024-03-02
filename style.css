@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(41, 39, 39);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+form{
+    display: flex;
+
+}
+
+input{
+    height: 50px;
+    width: 350px;
+    background-color: inherit;
+    
+    color: white;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+}
+
+.white-b{
+    border: 1px solid white;
+}
+
+.orange-b{
+    border: 1px solid orange;
+}
+.yellow-b{
+    border: 1px solid yellow;
+}
+.green-b{
+    border: 1px solid green;
+}
+input:focus{
+    outline:none;
+}
+img{
+    height: 40px;
+    position: relative;
+    right: 50px;
+    top: 5px;
+}
+
+#comment{
+    font-size: 1rem;
+    color: green;
+    
+}
